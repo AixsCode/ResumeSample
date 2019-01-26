@@ -25,16 +25,17 @@
 ---
 # 项目经历
 ### 浙江省德波机电集团任务调度管理项目（ 2017年11月 ~ 2018年2月 ） 
-此项目是基于ssm的后台任务调度系统,我在此项目中我主要负责任务调度主流程的功能实现,这个项目中，最值得学习的技术细节是进行数据库sql的优化，我通过慢日志定位慢查询sql,使用explain工具分析sql,修改sql尽量通过索引的方式来实现数据库查询的优化。
+此项目是基于ssm的后台任务调度系统,我在此项目中我主要负责任务调度主流程的功能实现,这个项目中，最值得学习的技术细节是进行数据库sql的优化，我通过慢日志定位慢查询sql,使用explain工具分析sql,修改sql尽量通过索引的方式来实现数据库查询的优化，提高了后端响应。
 ### 基于SpringCloud的微信点餐微服务项目（ 2018年9月 ~ 2019年2月 ）
 此项目是基于将传统基于SpringBoot微信点餐系统架构向Springcloud微服务架构迁移，我主要负责应用服务的拆分、SpringCloud Config分布式配置，并利用Rancher+Docker实现容器编排，SpringCloud Sleuth集成Zipkin实现分布式链路追踪，这个项目中，我最困难的问题是实现商品服务和订单服务异步通信，我采取了中间件RabbitMQ来实现商品服务和订单服务的异步扣库存，通过异步的方式实现了应用的解耦，给用户带来良好的体验。
 ## 技术文章
-- [Java深入理解之转发和重定向](https://blog.csdn.net/w_x_s_h_h/article/details/78396875)
+- [Spring开发之拦截器解决跨域问题](https://blog.csdn.net/w_x_s_h_h/article/details/79196271)
 # 技能清单
 以下均为我熟练使用的技能
 - Web框架：Spring/SpringMVC/SpringBoot/Mybatis..
 - 微服务框架：SpringCloud
 - 消息中间件：RabbitMQ
+- 容器应用：docker、rancher
 - Linux:日志统计检索、常用命令
 - 数据库相关：MySQL/Redis
 - 版本管理、自动化部署工具：Git---
