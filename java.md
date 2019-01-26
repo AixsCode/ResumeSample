@@ -11,7 +11,7 @@
  - 王晓圣/男/1997 
  - 本科/浙江理工大学计算机系 
  - 技术博客：https://aixscode.github.io/ 
- - Github：https://github.com/AixsCode/SpringCloud_Sell
+ - Github：https://github.com/AixsCode/
  - 期望职位：Java工程师
 ---
 # 学习经历
